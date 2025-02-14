@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lab4 – Exercise 2</title>
+</head>
+<body>
+<h1>JavaScript Lab</h1>
+    <script>
+
+/*function add(num1, num2){
+
+    return num1 + num2;
+ }
+
+function subtract(num1, num2){
+    return num1 - num2;
+}*/
+
+
+/*function add(num1, num2 =0){
+return num1 + num2;
+}   
+
+function subtract(num1, num2 = 0){
+    return num1 - num2;
+}*/
+
+let add = (x,y) => x+y;
+
+let subtract =(x,y) => x-y;
+
+let multiply = (x,y) => x*y;
+
+let divide = (x,y) => {
+    if(y!=0)
+        return  x/y;
+    else
+        return `Cannot divide by zero`;
+}
+function calculator(num1, num2, callback){
+
+return callback(num1, num2);
+};
+    </script>
+</body>
+</html>
