@@ -30,6 +30,8 @@
         console.log(classInfo);
         let {className, students} = classInfo;
         console.log(className, students);
+        let {semester, year} = classInfo.details;
+        console.log(semester, year);
         let [student1, student2] = classInfo.students;
         remainingStudents = classInfo.students.slice(2);
         console.log(student1, student2, remainingStudents);
